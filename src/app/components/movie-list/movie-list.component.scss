@@ -1,0 +1,81 @@
+.movielist-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.movielist-item {
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.movielist-poster {
+  position: relative;
+  margin-right: 20px;
+
+  img {
+    box-shadow: 0 0 60px 1px rgba(100, 100, 100, .6);
+    width: 150px;
+    height: auto;
+  }
+
+  .movielist-play-trailer {
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 48px;
+    height: 48px;
+    opacity: 0.7;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+.movielist-info {
+  flex: 1;
+
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+
+  .subtitle {
+    display: inline-block;
+    margin-bottom: 1rem;
+    color: #555;
+  }
+
+  .description {
+    margin-bottom: 1rem;
+    color: #777;
+  }
+}
+
+.movielist-meta {
+  dl {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+    font-size: 14px;
+  }
+
+  dt {
+    margin-right: .4rem;
+    color: #333;
+    font-weight: bold;
+  }
+
+  dd {
+    margin-right: 1rem;
+    color: #777;
+  }
+}

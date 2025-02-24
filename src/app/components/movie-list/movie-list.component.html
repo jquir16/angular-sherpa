@@ -1,0 +1,19 @@
+<div class="movielist-container">
+  <div *ngFor="let movie of movies" class="movielist-item">
+    <div class="movielist-info">
+      <div class="title">{{ movie.title }}</div>
+      <div class="subtitle">{{ movie.casting }}</div>
+      <div class="description">{{ movie.overview }}</div>
+      <div class="movielist-meta">
+        <dl>
+          <dt>Director:</dt>
+          <dd>{{ movie.director }}</dd>
+          <dt>Year:</dt>
+          <dd>{{ movie.release_date }}</dd>
+          <dt>Start Date:</dt>
+          <dd>{{ movie.start_date }}</dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+</div>

@@ -29,10 +29,26 @@
               {
                 "glob": "**/*",
                 "input": "public"
+              },
+              {
+                "glob": "**/*",
+                "input": "./node_modules/@npm-bbta/bbog-dig-dt-webcomponents-lib",
+                "output": "./bbog-dig-dt-webcomponents-lib/"
+              },
+              {
+                "glob": "**/*",
+                "input": "./node_modules/@npm-bbta/bbog-dig-dt-webcomponents-lib/dist/bdb-webcomponents/assets/fonts",
+                "output": "./assets/fonts"
+              },
+              {
+                "glob": "**/*",
+                "input": "./node_modules/@npm-bbta/bbog-dig-dt-webcomponents-lib/dist/bdb-webcomponents/assets/img",
+                "output": "./assets/img"
               }
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/@npm-bbta/bbog-dig-dt-webcomponents-lib/dist/bdb-webcomponents/bdb-webcomponents.css"
             ],
             "scripts": []
           },
@@ -91,7 +107,8 @@
               }
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/@npm-bbta/bbog-dig-dt-webcomponents-lib/dist/bdb-webcomponents/bdb-webcomponents.css"
             ],
             "scripts": []
           }

@@ -1,6 +1,12 @@
 # AngularSherpa
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.6.
+Este proyecto fue generado usando [Angular CLI](https://github.com/angular/angular-cli) versión 19.1.6.
+
+para instalar dependencias: 
+
+```bash
+npm i
+```
 
 ## Development server
 
